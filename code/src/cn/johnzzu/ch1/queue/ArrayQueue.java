@@ -1,7 +1,5 @@
 package cn.johnzzu.ch1.queue;
 
-import cn.johnzzu.ch1.stack.ArrayStack;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
