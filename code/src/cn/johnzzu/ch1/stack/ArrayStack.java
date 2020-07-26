@@ -55,8 +55,8 @@ public class ArrayStack<T> implements Stack<T> {
         if (isEmpty()) {
             throw new NoSuchElementException();
         }
-        T item = data[n-1];
-        data[n-1] = null;
+        T item = data[n - 1];
+        data[n - 1] = null;
         n--;
         // 是否需要自动调整大小
         if (n > 0 && n == data.length / 4) {
